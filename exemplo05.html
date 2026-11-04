@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 01</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+        header {
+            background-color: aquamarine;
+        }
+        footer {
+            background-color: pink;
+        }
+
+        section {
+            background-color: antiquewhite;
+        }
+
+        nav {
+            background-color: lightgreen;
+        }
+
+        aside {
+            background-color: cornsilk;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            border: 1px solid blue;
+            background-color: lightblue;
+            padding: 0.1em;
+        }
+
+        .holy-grail {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: auto 1fr auto;
+        }
+
+        .holy-grail > header {
+            grid-column: 1/4;
+        }
+
+        .holy-grail > footer {
+            grid-column: 1/4;
+        }
+
+        .holy-grail > section {
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <article class="holy-grail">
+            <header>
+                <h1>Exemplo 05: Holy Grail</h1>
+            </header>
+
+            <nav>
+                <ul class="desconstructed-pancake">
+                    <li>Primeiro</li>
+                    <li>Segundo</li>
+                    <li>Terceiro</li>
+                    <li>Quarto</li>
+                    <li>Quinto</li>
+                </ul>
+            </nav>
+            <section>
+                <h2>Texto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tempore esse obcaecati assumenda
+                    blanditiis eveniet illum, repudiandae maiores repellendus, sequi nesciunt! Fuga iste aspernatur
+                    molestiae expedita explicabo, libero dolore praesentium.</p>
+                <p>Officia explicabo quae, debitis autem non sunt nesciunt assumenda ab. Sunt aperiam eius possimus
+                    nobis eligendi necessitatibus consectetur animi, expedita, voluptas qui consequuntur! Incidunt aut
+                    deleniti natus! Quibusdam, natus aliquam.</p>
+                <p>Sapiente sequi odit distinctio libero facilis, mollitia itaque laboriosam, veritatis ullam, aliquid
+                    alias. Repudiandae quidem numquam harum. Vitae sed, assumenda tempora ad aspernatur libero maiores
+                    eum consequuntur labore sequi! Blanditiis.</p>
+            </section>
+            <aside>
+                <ul class="desconstructed-pancake">
+                    <li>Primeiro</li>
+                    <li>Segundo</li>
+                    <li>Terceiro</li>
+                    <li>Quarto</li>
+                    <li>Quinto</li>
+                </ul>
+            </aside>
+            <footer>
+                &COPY; 2026 - DCC202 - UFJF
+            </footer>
+        </article>
+
+    </main>
+
+</body>
+
+</html>
