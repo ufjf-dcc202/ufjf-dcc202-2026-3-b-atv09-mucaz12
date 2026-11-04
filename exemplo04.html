@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 01</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+        header, footer {
+            background-color: aquamarine;
+        }
+
+        section {
+            background-color: antiquewhite;
+        }
+
+        .pancake-stack {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+        }
+
+        .pancake-stack > section {
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <article class="pancake-stack">
+            <header>
+                <h1>Exemplo 04: Pancake Stack</h1>
+            </header>
+            <section>
+                <h2>Texto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tempore esse obcaecati assumenda
+                    blanditiis eveniet illum, repudiandae maiores repellendus, sequi nesciunt! Fuga iste aspernatur
+                    molestiae expedita explicabo, libero dolore praesentium.</p>
+                <p>Officia explicabo quae, debitis autem non sunt nesciunt assumenda ab. Sunt aperiam eius possimus
+                    nobis eligendi necessitatibus consectetur animi, expedita, voluptas qui consequuntur! Incidunt aut
+                    deleniti natus! Quibusdam, natus aliquam.</p>
+                <p>Sapiente sequi odit distinctio libero facilis, mollitia itaque laboriosam, veritatis ullam, aliquid
+                    alias. Repudiandae quidem numquam harum. Vitae sed, assumenda tempora ad aspernatur libero maiores
+                    eum consequuntur labore sequi! Blanditiis.</p>
+            </section>
+            <footer>
+                &COPY; 2026 - DCC202 - UFJF
+            </footer>
+        </article>
+
+    </main>
+
+</body>
+
+</html>
